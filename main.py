@@ -127,6 +127,10 @@ def main():
     changePolicyStatusPerSeverity(API_ENDPOINT, token, 'medium', 'true')
     # changePolicyStatusPerSeverity(API_ENDPOINT, token, 'low', 'true')
 
+    # changePolicyStatusPerSeverity(API_ENDPOINT, token, 'high', 'false')
+    # changePolicyStatusPerSeverity(API_ENDPOINT, token, 'medium', 'false')
+    # changePolicyStatusPerSeverity(API_ENDPOINT, token, 'low', 'false')
+
 
 if __name__ == "__main__":
     main()
